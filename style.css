@@ -21,3 +21,52 @@ body {
   background:white;
   border-style: 1px solid gray;
 }
+
+.navbar-default {
+  background:white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+  font-weight:bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover {
+  color: #777;
+}
+.navbar-default {
+  border-radius: 0;
+  background: white;
+  border:none;
+  margin-bottom:0;
+}
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    height: 70px;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color:white;
+    border-bottom:3px solid #555;
+  }
+  .navbar-default .navbar-nav>li>a {
+    padding: 25px 20px 22px 20px;
+    transition: border-color .5s;
+    border-bottom-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #555;
+    background-color:white;
+    border-bottom:3px solid #777;
+  }
+  .navbar-brand {
+    height: 70px;
+    padding: 20px;
+    display:flex;
+    align-items:center;
+  }
+}
