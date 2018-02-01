@@ -138,3 +138,26 @@ body {
   }
 }
 /* end navbar stuff */
+.picturesmall {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("http://www.defendtaxpayer.com/blog/wp-content/uploads/2015/06/tax-tips.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:70vh;
+  display:flex;
+  align-items:center;
+  text-align: center;
+  min-height:450px;
+  width:100%;
+  margin-bottom:20px;
+}
+.picturesmall h1 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color:white;
+  font-size:50px;
+  margin-bottom:10px;
+}
+.picturesmall h2 {
+  color:white;
+  font-size:20px;
+  margin-bottom:10px;
+}
