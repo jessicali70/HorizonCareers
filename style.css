@@ -142,7 +142,7 @@ body {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("http://www.defendtaxpayer.com/blog/wp-content/uploads/2015/06/tax-tips.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-  height:70vh;
+  height:30vh;
   display:flex;
   align-items:center;
   text-align: center;
@@ -166,7 +166,7 @@ body {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://static.pexels.com/photos/7112/woman-typing-writing-windows.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-  height:70vh;
+  height:30vh;
   display:flex;
   align-items:center;
   text-align: center;
