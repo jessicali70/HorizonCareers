@@ -186,3 +186,6 @@ body {
 .box p {
   font-size: 16px;
 }
+body {
+  padding-top:50px;
+}
