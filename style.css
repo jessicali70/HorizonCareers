@@ -245,3 +245,6 @@ h1,h2,h3,h4,h5,h6 {
 .job-op h4 {
   font-weight:bold;
 }
+.container-out p {
+  line-height:1.5em;
+}
