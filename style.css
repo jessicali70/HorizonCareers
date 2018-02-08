@@ -190,7 +190,7 @@ body {
   padding-top:50px;
 }
 
-.container-out button {
+.container-out .btn {
   margin-top:20px;
   color:white;
   border-radius:5px;
@@ -199,7 +199,7 @@ body {
   background-color:lightgreen;
   transition:1s;
 }
-.container-out button:hover {
+.container-out .btn:hover {
   /*background:rgba(255,255,255,0.2);*/
   color:white;
   transition:1s;
