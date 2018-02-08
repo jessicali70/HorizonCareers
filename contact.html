@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Questions?</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
 
@@ -35,25 +36,36 @@
     </div>
   </nav>
   <!-- nav -->
-  <div class="jumbotron">
+  <div class="jumbotron header">
     <div class="container">
       <h1>Questions?</h1>
         <h2>Fill out the form below, and we'll get back to you as soon as possible.</h2>
     </div>
-    <form>
-        <fieldset>
+  </div>
+  <div class="container-out">
+    <div class="container">
+
+    <form class="">
+      <div class="form-group">
         <label for="first-name">First Name: </label>
-        <input type="text" name="first-name"><br>
+        <input type="text" name="first-name" class="form-control">
+      </div>
+      <div class="form-group">
         <label for="last-name">Last Name: </label>
-        <input type="text" name="last-name"><br>
+        <input type="text" name="last-name" class="form-control">
+      </div>
+      <div class="form-group">
         <label for="email">Email: </label>
-        <input type="text" name="email"><br>
-        <h4>What's your question?</h4>
-        <h5>We'll send you an email to let you know!</h5>
-        <textarea cols="30" rows="10" placeholder="Enter a message here"></textarea><br>
-        <input type="submit">
-        </fieldset>
-</form>
+        <input type="text" name="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>What's your question?</label>
+        <p>We'll send you an email to let you know!</p>
+        <textarea cols="30" rows="10" placeholder="Enter a message here" class="form-control"></textarea><br>
+      </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </div>
   </body>
   </html>
