@@ -248,3 +248,6 @@ h1,h2,h3,h4,h5,h6 {
 .container-out p {
   line-height:1.5em;
 }
+.q-intro {
+  padding:30px 0;
+}
