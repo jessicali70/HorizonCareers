@@ -46,6 +46,8 @@ body {
   color:white;
   text-transform: uppercase;
   font-size:16px;
+  border:none;
+  border-bottom:2px solid darkgreen;
 }
 .btn:hover {
   background:#5cd65c;
@@ -274,5 +276,10 @@ h1,h2,h3,h4,h5,h6 {
 @media screen and (min-width: 991px) {
   .col-box {
     padding:40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-box {
+    margin:40px 0;
   }
 }
