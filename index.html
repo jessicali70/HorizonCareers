@@ -15,6 +15,12 @@
     body {
       padding:0;
     }
+    #index-col {
+      background: white;
+    }
+    #questions {
+      background:white;
+    }
     </style>
   </head>
   <body>
@@ -54,27 +60,27 @@
 
 
 
-<div class="container-out">
+<div class="container-out" id="index-col">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4">
-        <div class="box">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="col-box">
           <img src="images/noun_1291213_cc.png" class="img-responsive">
           <h3>Recent Job Openings</h3>
           <p>Learn where to find the newest and hottest job openings in the Bay Area that are tailored to your needs.</p>
           <p>Find the job for you »</p>
         </div>
         </div>
-      <div class="col-lg-4 col-md-4">
-      <div class="box">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="col-box">
         <img src="images/resume.png" class="img-responsive">
         <h3>Resume Writing</h3>
         <p>For many job opportunities, companies require you to first submit your resume. First time writing your resume? No worries, click on the link below for guidance.</p>
         <p>Resume Writing »</p>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4">
-    <div class="box">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="col-box">
         <img src="images/jobinterview.png" class="img-responsive">
       <h3>Job Interview Tips</h3>
       <p>Most arguably the most crucial part of the job application process is your job interview. Find out how to ace your job interview and make the best first impression to your possible future employer.</p>
@@ -91,11 +97,21 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <button class="btn btn-default btn-md">Job search</button>
     </div>
-    <img class="placeholder-img" src="https://ichef-1.bbci.co.uk/news/976/media/images/83351000/jpg/_83351965_explorer273lincolnshirewoldssouthpicturebynicholassilkstone.jpg">
+    <img class="half-behind-img-right" src="images/half-box-img-right.jpg">
   </div>
 </div>
 
 <div class="container-out">
+  <div class="container">
+    <img class="half-behind-img-left" src="images/half-box-img-right.jpg">
+    <div class="halfbox box">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button class="btn btn-default btn-md">Job search</button>
+    </div>
+  </div>
+</div>
+
+<div class="container-out" id="questions">
 <div class="container">
   <h1>Any questions? Feel free to contact us.</h1>
     <a href="contact.html" class="btn btn-lg">Contact</a>
