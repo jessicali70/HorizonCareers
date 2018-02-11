@@ -213,7 +213,15 @@ body {
 body {
   padding-top:50px;
 }
-
+.container-out .btn.btn-sm {
+  margin-top:20px;
+  color:white;
+  border-radius:5px;
+  padding:10px 25px;
+  background-color:#5cd65c;
+  transition:1s;
+  font-size:100%;
+}
 .container-out .btn {
   margin-top:20px;
   color:white;
@@ -226,7 +234,7 @@ body {
   /*background:rgba(255,255,255,0.2);*/
   color:white;
   transition:1s;
-  box-shadow:0px 0px 10px white;
+  box-shadow:0px 0px 10px #BBB;
 }
 .jumbotron .btn {
   margin-top:20px;
@@ -251,15 +259,9 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Roboto', san-serif;
 }
-/*.header {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/workplace-header-1920.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:bottom;
-  color:white;
-  text-shadow:0px 0px 3px gray;
-}*/
+.container-out h1,.container-out h2,.container-out h3,.container-out h4,.container-out h5,.container-out h6 {
+  line-height:1.75em;
+}
 .job-op {
   padding:20px;
   margin:10px 0;
@@ -268,19 +270,29 @@ h1,h2,h3,h4,h5,h6 {
   font-weight:bold;
 }
 .container-out p {
-  line-height:1.5em;
+  line-height:1.75em;
 }
 .q-intro {
   padding:20px 0;
 }
-@media screen and (min-width: 991px) {
-  .col-box {
-    padding:40px;
-  }
-}
 @media screen and (max-width: 768px) {
   .col-box {
     margin:40px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .col-box {
+    margin:20px 0;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .col-box {
+    padding:30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-box {
+    padding:40px;
   }
 }
 p {
