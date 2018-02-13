@@ -299,3 +299,10 @@ p {
   font-family:Georgia;
   font-size:1.2em;
 }
+#footer {
+  background:darkblue;
+  color:white;
+  padding:20px 0 10px 0;
+  text-align:center;
+  font-size:0.5em;
+}
