@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6 {
 .job-op h4 {
   font-weight:bold;
 }
-.container-out p {
+.container-out p, .container-out li {
   line-height:1.75em;
 }
 .q-intro {
@@ -295,9 +295,12 @@ h1,h2,h3,h4,h5,h6 {
     padding:40px;
   }
 }
-p {
+p, .container-out li {
   font-family:Georgia;
   font-size:1.2em;
+}
+.container-out ul {
+  list-style-type: square;
 }
 #footer {
   background:#001a66;
@@ -305,4 +308,15 @@ p {
   padding:20px 0 10px 0;
   text-align:center;
   font-size:0.5em;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
