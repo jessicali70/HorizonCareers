@@ -2,7 +2,7 @@ body {
   background-color:#aacdf0;
 }
 .slideshow {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://cdn.pixabay.com/photo/2017/01/11/11/03/notebook-1971495_960_720.jpg");
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/slideshow-background.png");
   background-size:cover;
   background-repeat:no-repeat;
   height:100vh;
@@ -299,6 +299,7 @@ p, .container-out li {
   font-family:Georgia;
   font-size:1.2em;
 }
+
 .container-out ul {
   list-style-type: square;
 }
@@ -307,7 +308,11 @@ p, .container-out li {
   color:white;
   padding:20px 0 10px 0;
   text-align:center;
-  font-size:0.5em;
+}
+#footer p {
+  font-family:'Roboto';
+
+  font-size:10px;
 }
 .row {
   display: -webkit-box;
@@ -319,4 +324,12 @@ p, .container-out li {
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+.col-image-box {
+  padding:30px;
+}
+.col-image-box img {
+  padding:10px;
+  border:1px solid white;
+  margin:20px 0;
 }
