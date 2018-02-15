@@ -1,17 +1,20 @@
 body {
   background-color:#aacdf0;
 }
+.slideshow, .header {
+  margin:0;
+}
 .slideshow {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/slideshow-background.png");
   background-size:cover;
   background-repeat:no-repeat;
+  background-attachment: fixed;
   height:100vh;
   display:flex;
   align-items:center;
   text-align: center;
   min-height:450px;
   width:100%;
-  margin-bottom:50px;
 }
 .slideshow h1 {
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
@@ -257,7 +260,7 @@ body {
   font-style: italic;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto', san-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .container-out h1,.container-out h2,.container-out h3,.container-out h4,.container-out h5,.container-out h6 {
   line-height:1.75em;
@@ -273,7 +276,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height:1.75em;
 }
 .q-intro {
-  padding:20px 0;
+  padding:40px 0 20px 0;
 }
 @media screen and (max-width: 768px) {
   .col-box {
