@@ -10,8 +10,28 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Horizon Careers</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
+<style>
+/* only if people see it */
+@media screen and (max-width: 450px) {
+  .slideshow {
+    background: url(""); /* name of background image file 700 */
+  }
+}
+@media screen and (max-width: 768px) {
+  .slideshow {
+    background: url(""); /* name of background image file 900 */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .slideshow {
+    background: url(""); /* name of background image file 1500 */
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+}
+@media screen and (min-width: 1200px) {
+}
     body {
       padding:0;
     }
@@ -25,7 +45,6 @@
       background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/slideshow-background.png");
       background-repeat:no-repeat;
       background-attachment: fixed;
-
       background-size:cover;
     }
     </style>
@@ -110,7 +129,7 @@
 
 <div class="container-out" id="halfbox2">
   <div class="container">
-    <img class="half-behind-img-left" src="images/half-box-img-right.jpg">
+    <img class="half-behind-img-left" src="goodjob.jpg">
     <div class="halfbox box">
       <p>Have a question? We might have the answer. Click below to find out. </p>
       <a href="frq.html" class="btn btn-default btn-md">ANSWERS</a>
