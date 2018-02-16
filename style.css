@@ -141,14 +141,6 @@ body {
   .navbar-default {
     box-shadow:0px 0px 10px black;
   }
-  .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
-    color: #FFF;
-    background-color:white;
-    border-bottom:3px solid #FFF;
-  }
-  .navbar-default .navbar-nav>li>.active {
-    border-bottom:3px solid #FFF;
-  }
   .navbar-default .navbar-nav>li>a {
     padding: 15px 20px 12px 20px;
     transition: border-color .5s;
@@ -161,9 +153,21 @@ body {
     color: #DDD;
     border-bottom:3px solid #DDD;
   }
+  .navbar-default .navbar-nav>li>a.active:hover {
+    color: #FFF;
+    border-bottom:3px solid #FFF;
+  }
   .navbar-brand {
     display:flex;
     align-items:center;
+  }
+  .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color:white;
+    border-bottom:3px solid #FFF;
+  }
+  .navbar-default .navbar-nav>li>.active {
+    border-bottom:3px solid #FFF;
   }
 }
 /* end navbar stuff */
