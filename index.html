@@ -12,25 +12,29 @@
     <title>Horizon Careers</title>
 <style>
 /* only if people see it */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .slideshow {
-    background: url("slideshow-background-700.jpeg");
-  }
-}
-@media screen and (max-width: 768px) {
-  .slideshow {
-    background: url(""); /* name of background image file 900 */
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .slideshow {
-    background: url("slideshow-background-1500.jpeg");
-  }
-}
-@media screen and (min-width: 991px) and (max-width: 1200px) {
+    background: url("images/slideshow-background-700.jpeg");
+    background-attachment: fixed;
+    background-size:cover;
 
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .slideshow {
+    background: url("images/slideshow-background-1500.jpeg");
+    background-attachment: fixed;
+    background-size:cover;
+
+  }
 }
 @media screen and (min-width: 1200px) {
+  .slideshow {
+    background: url("images/slideshow-background.jpeg");
+    background-attachment: fixed;
+    background-size:cover;
+
+  }
 }
     body {
       padding:0;
@@ -93,8 +97,8 @@
 
       <div class="col-lg-6 col-md-6">
         <div class="col-box" style="text-align:center;">
-        <h2 style="font-size:3em;">3 billion people employed in this world</h2>
-        <h2 style="font-size:2em;" class="lead">Find your career.</h2>
+        <h2 style="font-size:3em;">3 billion people employed in this world...</h2>
+        <h2 style="font-size:2em;" class="lead">Find your career now.</h2>
       </div>
       </div>
       <div class="col-lg-6 col-md-6">
