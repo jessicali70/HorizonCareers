@@ -5,7 +5,7 @@ body {
   margin:0;
 }
 .slideshow {
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/slideshow-background.png");
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/slideshow-background.jpeg");
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -27,16 +27,14 @@ body {
 }
 .slideshow .btn {
   margin-top:20px;
-  color:white;
+  color:#222;
   border-radius:5px;
   padding:15px 40px;
   border:1px solid white;
-  background-color:transparent;
   transition:1s;
 }
 .slideshow .btn:hover {
-  background-color:transparent;
-  color:white;
+  color:#222;
   transition:1s;
   box-shadow:0px 0px 10px white;
 }
@@ -46,7 +44,7 @@ body {
 .btn {
   background:#aacdf0;
   transition:1s;
-  color:white;
+  color:#222;
   text-transform: uppercase;
   font-size:16px;
   border:none;
@@ -54,7 +52,7 @@ body {
 }
 .btn:hover {
   background:#aacdf0;
-  color:white;
+  color:#222;
   border-radius:5px;
   box-shadow:0px 0px 5px gray;
   transition:1s;
@@ -109,24 +107,24 @@ body {
 
 /* start navbar stuff */
 .navbar-default {
-  background:white;
+  background:#222;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #777;
+  color: #FFF;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #FFF;
   font-weight:bold;
 }
 .navbar-default .navbar-nav>li>a:hover {
-  color: #777;
+  color: #DDD;
 }
 .navbar-default .navbar-brand:hover {
-  color: #777;
+  color: #DDD;
 }
 .navbar-default {
   border-radius: 0;
-  background: white;
+  background: #222;
   border:none;
   margin-bottom:0;
 }
@@ -141,15 +139,15 @@ body {
 }
 @media screen and (min-width: 768px) {
   .navbar-default {
-    box-shadow:0px 0px 10px gray;
+    box-shadow:0px 0px 10px black;
   }
   .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
-    color: #555;
+    color: #FFF;
     background-color:white;
-    border-bottom:3px solid #555;
+    border-bottom:3px solid #FFF;
   }
   .navbar-default .navbar-nav>li>.active {
-    border-bottom:3px solid #555;
+    border-bottom:3px solid #FFF;
   }
   .navbar-default .navbar-nav>li>a {
     padding: 15px 20px 12px 20px;
@@ -160,9 +158,8 @@ body {
     font-weight:bold;
   }
   .navbar-default .navbar-nav>li>a:hover {
-    color: #555;
-    background-color:white;
-    border-bottom:3px solid #777;
+    color: #DDD;
+    border-bottom:3px solid #DDD;
   }
   .navbar-brand {
     display:flex;
@@ -218,7 +215,7 @@ body {
 }
 .container-out .btn.btn-sm {
   margin-top:20px;
-  color:white;
+  color:#222;
   border-radius:5px;
   padding:10px 25px;
   background-color:#aacdf0;
@@ -227,7 +224,7 @@ body {
 }
 .container-out .btn {
   margin-top:20px;
-  color:white;
+  color:#222;
   border-radius:5px;
   padding:15px 40px;
   background-color:#aacdf0;
@@ -235,20 +232,20 @@ body {
 }
 .container-out .btn:hover {
   /*background:rgba(255,255,255,0.2);*/
-  color:white;
+  color:#222;
   transition:1s;
   box-shadow:0px 0px 10px #BBB;
 }
 .jumbotron .btn {
   margin-top:20px;
-  color:white;
+  color:#222;
   border-radius:5px;
   padding:15px 40px;
   background-color:#aacdf0;
   transition:1s;
 }
 .jumbotron .btn:hover {
-  color:white;
+  color:#222;
   transition:1s;
   box-shadow:0px 0px 10px white;
 }
