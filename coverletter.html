@@ -8,26 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Cover Letters</title>
   <style>
-  @media screen and (max-width: 450px) {
-    .slideshow {
-      background: url("coverletter-header-700.jpg"); /* name of background image file 700 */
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .slideshow {
-      background: url(""); /* name of background image file 900 */
-    }
-  }
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    .slideshow {
-      background: url("coverletter-header-1500.jpg"); /* name of background image file 1500 */
-    }
-  }
-  @media screen and (min-width: 991px) and (max-width: 1200px) {
 
-  }
-  @media screen and (min-width: 1200px) {
-  }
 body {
     background-color:#222;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/resume-header.jpg');
@@ -42,7 +23,33 @@ body {
     color:white;
     text-shadow:0px 0px 3px gray;
   }
-
+  @media screen and (max-width: 600px) {
+    body {
+      background-color:#222;
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("images/coverletter-header-700.jpg");
+      background-attachment: fixed;
+      background-size:cover;
+background-position:30%;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+      background-color:#222;
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("images/coverletter-header-1500.jpg");
+      background-attachment: fixed;
+      background-size:cover;
+background-position:30%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color:#222;
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("images/coverletter-header.jpg");
+      background-attachment: fixed;
+      background-size:cover;
+background-position:30%;
+    }
+  }
   </style>
   </head>
 <body>
