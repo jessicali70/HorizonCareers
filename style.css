@@ -340,9 +340,19 @@ p, .container-out li {
   padding-bottom:40px;
   border-bottom:2px solid white;
 }
-.footer-logos img {
-  padding:0 10px;
+.social-logos {
+  margin-top:30px;
+}
+.social-logos img {
+  margin:0 10px;
   margin-bottom: 5px;
+  transition:1s;
+  border-radius:15px;
+}
+.social-logos img:hover {
+  border-radius:15px;
+  background:rgba(255, 255, 255, 0.5);
+  transition:1s;
 }
 #footer a {
   color:white;
