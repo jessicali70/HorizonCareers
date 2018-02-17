@@ -337,3 +337,7 @@ p, .container-out li {
   border:1px solid white;
   margin:20px 0;
 }
+.row-bottom-line {
+  padding-bottom:40px;
+  border-bottom:2px solid white;
+}
