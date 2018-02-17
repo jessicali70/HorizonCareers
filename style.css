@@ -317,6 +317,7 @@ p, .container-out li {
 #footer p {
   font-weight:normal;
   font-size:10px;
+  margin-bottom:5px;
 }
 .row {
   display: -webkit-box;
@@ -344,4 +345,9 @@ p, .container-out li {
 .footer-logos img {
   padding:0 10px;
   margin-bottom: 5px;
+}
+#footer a {
+  color:white;
+  text-decoration: underline;
+  font-size:10px;
 }
