@@ -27,10 +27,8 @@ body {
 }
 .slideshow .btn {
   margin-top:20px;
-  color:#222;
-  border-radius:5px;
+
   padding:15px 40px;
-  border:1px solid white;
   transition:1s;
 }
 .slideshow .btn:hover {
