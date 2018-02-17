@@ -15,11 +15,47 @@
     color:white;
   }
   .header {
-    background:#aacdf0;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/interview-header.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:bottom;
     color:white;
     text-shadow:0px 0px 3px gray;
   }
-
+  @media screen and (max-width: 450px) {
+    .header {
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/coverletter-header-700.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-position:bottom;
+      color:white;
+      text-shadow:0px 0px 3px gray;
+    }
+  }
+  @media screen and (max-width: 451px) and (max-width: 1200px) {
+    .header {
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/coverletter-header-1500.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-position:bottom;
+      color:white;
+      text-shadow:0px 0px 3px gray;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .header {
+      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/coverletter-header.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-position:bottom;
+      color:white;
+      text-shadow:0px 0px 3px gray;
+    }
+  }
   </style>
 </head>
 <body>
