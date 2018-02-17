@@ -10,26 +10,7 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>Horizon Careers</title>
     <style>
-    @media screen and (max-width: 450px) {
-      .slideshow {
-        background: url("images/workplace-header-700.jpg");
-      }
-    }
-    @media screen and (max-width: 768px) {
-      .slideshow {
-        background: url("");
-      }
-    }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-      .slideshow {
-        background: url("images/workplace-header-1500.jpg");
-      }
-    }
-    @media screen and (min-width: 991px) and (max-width: 1200px) {
 
-    }
-    @media screen and (min-width: 1200px) {
-    }
   #intro {
     background:white;
   }
@@ -58,6 +39,34 @@
   }
 #job-ops {
   background:white;
+}
+@media screen and (max-width: 450px) {
+  .header {
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/workplace-header-700.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:bottom;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 1200px) {
+  .header {
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/workplace-header-1500.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:bottom;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/workplace-header-1920.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:bottom;
+  }
 }
   </style>
 </head>
