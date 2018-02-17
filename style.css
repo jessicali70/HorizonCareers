@@ -341,3 +341,7 @@ p, .container-out li {
   padding-bottom:40px;
   border-bottom:2px solid white;
 }
+.footer-logos img {
+  padding:0 10px;
+  margin-bottom: 5px;
+}
